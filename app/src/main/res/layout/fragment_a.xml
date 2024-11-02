@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewA"
+        android:layout_width="198dp"
+        android:layout_height="314dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/imagen1" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewA"
+        android:layout_centerHorizontal="true"
+        android:text="Ejemplo de textView" />
+
+    <Button
+        android:id="@+id/buttonNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewA"
+        android:layout_centerHorizontal="true"
+        android:text="Ir a Fragment B" />
+
+    <Button
+        android:id="@+id/buttonAnimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNavigate"
+        android:layout_centerHorizontal="true"
+        android:text="Animate" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<!-- res/transition/fragment_transition.xml -->
+<transition-set xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide android:duration="300" android:slideEdge="left"/>
+    <fade android:duration="300"/>
+
+</transition-set>
+
+
